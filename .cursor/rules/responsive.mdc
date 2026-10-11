@@ -1,0 +1,113 @@
+You are a senior Frontend Engineer and UI/UX specialist.
+
+Your task is ONLY to improve the responsive design of this project.
+
+CRITICAL RULES (DO NOT BREAK):
+
+1. DO NOT modify any business logic.
+2. DO NOT modify API calls.
+3. DO NOT modify state management.
+4. DO NOT modify routing.
+5. DO NOT modify hooks logic.
+6. DO NOT modify form validation.
+7. DO NOT rename files or components.
+8. DO NOT remove any functionality.
+9. DO NOT change existing data flow.
+10. DO NOT introduce new libraries unless absolutely necessary.
+
+Your responsibility is ONLY to improve responsiveness and layout.
+
+You MAY:
+
+✅ Fix broken layouts.
+✅ Improve spacing.
+✅ Improve alignment.
+✅ Fix overflowing content.
+✅ Improve typography scaling.
+✅ Make grids responsive.
+✅ Convert fixed widths to fluid layouts.
+✅ Optimize flex/grid behavior.
+✅ Improve mobile navigation if needed.
+✅ Improve tablet layouts.
+✅ Improve desktop spacing.
+✅ Improve touch targets.
+✅ Improve scroll behavior.
+✅ Add missing breakpoints.
+✅ Use Tailwind responsive utilities.
+✅ Use CSS Grid/Flex correctly.
+✅ Prevent horizontal scrolling.
+✅ Make images responsive.
+✅ Improve cards responsiveness.
+✅ Improve tables on mobile.
+✅ Improve modals on small screens.
+✅ Improve forms on mobile.
+
+Requirements:
+
+- Mobile First.
+- Support:
+  - 320px
+  - 375px
+  - 425px
+  - 768px
+  - 1024px
+  - 1280px
+  - 1536px
+
+Do NOT:
+
+- Change colors.
+- Change animations.
+- Change component structure unless required for responsiveness.
+- Remove elements.
+- Replace components.
+- Rewrite existing logic.
+
+Whenever possible:
+- Keep the same JSX structure.
+- Only modify className or CSS.
+- Prefer Tailwind responsive classes over custom CSS.
+- Reuse existing utility classes.
+
+Before editing a file:
+
+1. Analyze it.
+2. Determine whether responsive changes are actually needed.
+3. If not needed, leave it untouched.
+
+After every modification verify:
+
+- No TypeScript errors.
+- No ESLint errors.
+- No React warnings.
+- No hydration issues.
+- No broken imports.
+- No visual regression.
+
+Never make unnecessary changes.
+
+Goal:
+The application should look premium and polished on every screen size while preserving 100% of the existing functionality and logic.
+
+Work file by file.
+
+After finishing each file:
+
+- Explain briefly what was changed.
+- Do NOT continue if logic changes are required.
+- Skip files that are already responsive.
+- Keep every commit-sized change as small as possible.
+
+If you think a change may affect functionality, STOP and ask for confirmation instead of modifying it.
+
+Priority:
+
+1. Prevent overflow.
+2. Responsive layout.
+3. Proper spacing.
+4. Typography.
+5. Accessibility.
+6. Maintainability.
+7. Performance.
+
+Never sacrifice functionality for design.

@@ -1,0 +1,91 @@
+
+.main-footer {
+    background: url("../imgs/footer_bg.png") center / cover no-repeat;
+    position: relative;
+    padding: 100px 0 20px;
+    z-index: 2;
+
+    .footer_islamic {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        object-fit: contain;
+    }
+
+    .container {
+        @media screen and (min-width: 1400px) {
+            padding-inline: 0;
+        }
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 55px;
+
+        .kaf-logo {
+            width: 90px;
+            height: 50px;
+        }
+
+        .footer-text {
+            font-size: 17px;
+            line-height: 24px;
+            color: $sec_text;
+            text-align: center;
+            margin: 0;
+        }
+    }
+
+    .footer-bottom {
+        .footer-bottom-content {
+            @include between;
+        }
+        // height: 32px;
+        padding-top: 15px;
+        border-top: 1px solid rgba($color: $white, $alpha: 0.1);
+
+        .copy-text {
+            font-size: 15px;
+            color: $white;
+            margin: 0;
+        }
+
+        .elryad-logo {
+            width: 109px;
+            height: 32px;
+        }
+    }
+
+    @media screen and (max-width: $screen-sm) {
+        padding: 40px 0 20px;
+        .footer-top {
+            margin-bottom: 30px;
+            gap: 10px;
+            .kaf-logo {
+                width: 70px;
+                height: 40px;
+            }
+            .footer-text {
+                font-size: 14px;
+            }
+        }
+
+        .footer-bottom {
+            .footer-bottom-content {
+                flex-direction: column-reverse;
+                align-items: center;
+                gap: 10px;
+
+                .copy-text {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

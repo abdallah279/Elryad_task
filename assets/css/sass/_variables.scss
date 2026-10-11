@@ -1,0 +1,72 @@
+$ltr: 'html[lang="en"]';
+$rtl: 'html[lang="ar"]';
+/*********************************************************
+  // global color variables
+**********************************************************/
+
+// colors
+$main: #CE9B5B;
+$sec: #048548;
+$sec_text: #f4f4f4e0;
+$three: #0077B6;
+$dark: #1E1E1E;
+$dark2: #100B0B;
+$dark3: #606E7D;
+$gray: #F4F4F4;
+$green-border: #4DCB90;
+$white: #fff;
+$white2: #FAFAFA;
+$white3: #EDF0F8;
+$white4: #E3F5FF;
+$white5: #e5ecf6;
+$black: #202020;
+$light: #F2F5F7;
+$light2: #f5f5f5;
+$light3: #CDD6DE;
+$light4: #F3F3F3;
+$light5: #F0F0F4;
+$light6: #EEEEEE;
+$light7: #3DB9B4;
+$red: #D44A4A;
+$orange: #f67311;
+$yellow: #ffce2b;
+$border-color: #F1EDED;
+$border-input: #CDD6DE;
+$placholder-color: #adabab;
+$icon-color: #b1b0b0;
+$side-color: #939393;
+$text-color: #2B2B2B;
+$main-shadow: 0 0 5px 0 rgba($color: $black, $alpha: .1);
+$sec-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;;
+$card-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+$nav-shadow: 0 3px 16px rgb(133 133 133 / 5%);
+$text-shadow: 0 2px 2px rgba($color: $dark, $alpha: .1);
+$img-shadow: 0 4px 4px 0 rgba($color: #000000, $alpha: 25%);
+$main-transition: all 0.31s ease-in-out;
+
+/*********************************************************
+  // Font variables
+**********************************************************/
+
+$font-normal: fontReg, sans-serif, 'Font Awesome 5 Free';
+
+/*********************************************************
+  // spacing variables
+**********************************************************/
+// these variable/s is still not applied on all elements
+
+$space-between: 20px;
+$spacer: 10px;
+
+/*********************************************************
+  // screens
+**********************************************************/
+$screen-xxl: 1720px;
+$screen-xx: 1600px;
+$screen-xl: 1280px;
+$screen-lg2: 1200px;
+$screen-lg: 992px;
+$screen-md: 768px;
+$screen-sm: 576px;
+$screen-xs: 425px;
+$screen-xxs: 375px;

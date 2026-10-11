@@ -1,0 +1,52 @@
+---
+alwaysApply: true
+---
+---
+description: Pixel-perfect screenshot implementation
+globs:
+  - "src/**/*.{js,jsx,ts,tsx}"
+alwaysApply: true
+---
+
+When implementing UI from screenshots, mockups, Figma exports, or design references:
+
+- Treat the screenshot as the source of truth.
+- Recreate the UI exactly as shown.
+- Pixel-perfect accuracy is required.
+
+Never:
+
+- Redesign the interface.
+- Improve spacing.
+- Add visual breathing room.
+- Modernize components.
+- Add animations.
+- Add hover effects unless visible.
+- Change typography hierarchy.
+- Increase paddings.
+- Increase margins.
+- Change border radius.
+- Change colors.
+- Change shadows.
+- Replace icons.
+- Add new sections.
+- Remove existing sections.
+- Invent responsive behavior.
+
+Always:
+
+- Match layout exactly.
+- Match spacing exactly.
+- Match typography exactly.
+- Match icon sizes exactly.
+- Match colors exactly.
+- Match borders exactly.
+- Match shadows exactly.
+- Match card heights exactly.
+- Match row heights exactly.
+- Match button sizes exactly.
+- Match alignment exactly.
+
+Visual similarity to the screenshot is the highest priority.
+
+If there is a conflict between implementation preferences and the screenshot, follow the screenshot.

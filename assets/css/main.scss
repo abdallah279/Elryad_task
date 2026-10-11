@@ -1,0 +1,184 @@
+@import "sass/variables", "sass/mixins", "sass/global", "sass/components",
+  "sass/navbar", "sass/footer";
+
+/********************* Start Home section *********************/
+
+.home-sec {
+  overflow: hidden;
+  min-height: calc(100vh - 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding-bottom: 25px;
+  
+  .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    @media screen and (max-width: $screen-lg) {
+      flex-direction: column-reverse;
+    }
+  }
+
+  .content {
+    width: 500px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .title {
+      font-family: fontBold;
+      font-size: 30px;
+      line-height: 38px;
+      color: $dark2;
+
+      .highlight {
+        color: $main;
+      }
+    }
+
+    .desc {
+      font-size: 15px;
+      line-height: 1.8;
+      color: $text-color;
+    }
+  }
+
+  .home-img {
+    width: 540px;
+    max-width: 100%;
+    margin-inline-end: -44px;
+
+    @media screen and (max-width: $screen-lg) {
+      margin-inline-end: 0;
+    }
+  }
+
+  @media screen and (max-width: $screen-sm) {
+    position: relative;
+    min-height: 370px;
+    .content {
+      width: 100%;
+      gap: 10px;
+      align-items: center;
+
+      .title {
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+      }
+
+      .desc {
+        font-size: 14px;
+        text-align: center;
+      }
+    }
+
+    .home-img {
+      width: 100%;
+      // height: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: 0;
+      z-index: -1;
+      opacity: 0.1;
+    }
+  }
+}
+
+/********************* End Home section *********************/
+
+/********************* Start Statistics section *********************/
+
+.stats-sec {
+  background-color: $gray;
+  padding: 80px 0;
+
+  .sec-title {
+    font-family: fontBold;
+    font-size: 28px;
+    line-height: 50px;
+    color: $text-color;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .stats-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    @media screen and (max-width: $screen-md) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .stat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 45px;
+    background-color: $white;
+    border: 1px solid $white;
+    border-radius: 10px;
+    transition: $main-transition;
+    box-shadow: 0 4px 12px rgba($color: #000000, $alpha: 0.03);
+    
+
+    &:hover {
+      border-color: $green-border;
+    }
+
+    .num {
+      font-family: fontBold;
+      font-size: 32px;
+      line-height: 1;
+      color: $main;
+    }
+
+    .label {
+      font-family: fontBold;
+      font-size: 18px;
+      line-height: 1;
+      color: $text-color;
+    }
+  }
+
+  @media screen and (max-width: $screen-sm) {
+    padding: 40px 0;
+    .sec-title {
+      font-size: 24px;
+      line-height: 1.5;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .stats-items {
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 0 15px;
+    }
+
+    .stat-card {
+      padding: 20px;
+      gap: 12px;
+
+      .num {
+        font-size: 24px;
+        line-height: 1.5;
+      }
+
+      .label {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+  }
+}
+
+/********************* End Statistics section *********************/

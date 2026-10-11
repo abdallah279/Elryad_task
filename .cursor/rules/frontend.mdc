@@ -1,0 +1,18 @@
+---
+alwaysApply: true
+---
+Always write clean React code.
+Prefer functional components.
+Prefer TypeScript types.
+Avoid prop drilling.
+Prefer React Query.
+Keep components under 250 lines.
+Extract reusable hooks.
+Extract reusable UI components.
+Use semantic HTML.
+Ensure accessibility.
+Optimize performance.
+Follow existing project architecture.
+Never break existing APIs.
+Never introduce unused imports.
+Never leave dead code.
